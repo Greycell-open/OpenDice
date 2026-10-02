@@ -1,0 +1,39 @@
+{
+  "name": "open-dice",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Professional open-source dice tools for tabletop players, makers, and developers.",
+  "license": "MIT",
+  "author": "Zein Alaouie",
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "dev": "npm run dev -w @open-dice/web",
+    "site:build": "npm run build && node -e \"console.log('Deploy apps/web/dist')\"",
+    "exe": "npm run build && node scripts/build-exe.mjs",
+    "models": "node scripts/export-models.mjs",
+    "site:preview": "npm run preview -w @open-dice/web",
+    "test": "npm run test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "@react-three/drei": "^10.0.0",
+    "@react-three/fiber": "^9.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.171.0"
+  }
+}

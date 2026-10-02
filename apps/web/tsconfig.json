@@ -1,0 +1,12 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "noEmit": true
+  },
+  "include": ["src", "vite.config.ts"],
+  "references": [
+    { "path": "../../packages/dice-engine" },
+    { "path": "../../packages/dice-notation" }
+  ]
+}

@@ -1,0 +1,178 @@
+@media (max-width: 980px) {
+  .app-shell {
+    padding: 12px;
+  }
+
+  .site-header {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  nav {
+    width: 100%;
+    padding-bottom: 2px;
+    overflow-x: auto;
+    scrollbar-width: thin;
+  }
+
+  nav button {
+    min-height: 44px;
+    flex: 1 0 auto;
+  }
+
+  .hero-panel,
+  .roller-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-panel {
+    padding: clamp(28px, 7vw, 52px);
+  }
+
+  .hero-card {
+    min-height: 290px;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .roller-layout {
+    min-height: auto;
+    padding: 12px;
+  }
+
+  .roll-controls {
+    display: contents;
+  }
+
+  .formula-panel { grid-row: 1; }
+  .quick-panel { grid-row: 2; }
+  .roll-stage { grid-row: 3; }
+  .preset-panel { grid-row: 4; }
+  .history-panel { grid-row: 5; }
+
+  .quick-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .docs-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 560px) {
+  .app-shell {
+    padding: 8px;
+  }
+
+  .site-header {
+    gap: 8px;
+    border-radius: 16px;
+  }
+
+  .brand small {
+    font-size: 0.68rem;
+  }
+
+  nav button {
+    padding: 0 12px;
+  }
+
+  .page-surface {
+    border-radius: 20px;
+  }
+
+  .hero-panel {
+    padding: 28px 20px;
+  }
+
+  .hero-copy h1,
+  .content-intro h1 {
+    font-size: clamp(2.6rem, 15vw, 4.7rem);
+  }
+
+  .hero-actions,
+  .site-footer {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .hero-card {
+    min-height: 270px;
+    padding: 24px 18px;
+  }
+
+  .hero-die {
+    width: 104px;
+    height: 104px;
+    font-size: 3rem;
+  }
+
+  .roller-layout {
+    padding: 8px;
+  }
+
+  .stage-heading {
+    align-items: stretch;
+    flex-direction: column;
+    padding: 22px 18px 0;
+  }
+
+  .stage-roll-button {
+    align-self: flex-start;
+  }
+
+  .result-summary h1 {
+    font-size: clamp(5rem, 34vw, 8rem);
+  }
+
+  .formula-row {
+    grid-template-columns: 1fr;
+  }
+
+  .formula-row button {
+    min-height: 48px;
+  }
+
+  .quick-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .dice-scene {
+    min-height: 240px;
+    height: 270px;
+  }
+
+  .roll-stage {
+    grid-template-rows: auto minmax(240px, 1fr) auto auto;
+  }
+
+  .empty-roll {
+    min-height: 240px;
+  }
+
+  .history-panel li {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .history-panel li .text-action {
+    grid-column: 1 / -1;
+    justify-self: stretch;
+    border-top: 1px solid var(--line);
+  }
+
+  .content-page {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  .brand small {
+    display: none;
+  }
+
+  .quick-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

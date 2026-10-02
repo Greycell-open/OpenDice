@@ -1,0 +1,125 @@
+{
+ "die": "d6",
+ "units": "mm",
+ "author": "Zein Alaouie",
+ "license": "CC-BY-4.0",
+ "credit": "Dice model by Zein Alaouie (Open Dice), CC BY 4.0",
+ "read": "upper face",
+ "opposite_faces_sum": 7,
+ "labels": [
+  {
+   "value": 1,
+   "center": [
+    8.17,
+    0,
+    0
+   ],
+   "normal": [
+    1,
+    0,
+    0
+   ],
+   "up": [
+    0,
+    -1,
+    0
+   ],
+   "text_height": 5.8252
+  },
+  {
+   "value": 6,
+   "center": [
+    -8.17,
+    0,
+    0
+   ],
+   "normal": [
+    -1,
+    0,
+    0
+   ],
+   "up": [
+    0,
+    -1,
+    0
+   ],
+   "text_height": 5.8252
+  },
+  {
+   "value": 2,
+   "center": [
+    0,
+    8.17,
+    0
+   ],
+   "normal": [
+    0,
+    1,
+    0
+   ],
+   "up": [
+    0,
+    0,
+    1
+   ],
+   "text_height": 5.8252
+  },
+  {
+   "value": 5,
+   "center": [
+    0,
+    -8.17,
+    0
+   ],
+   "normal": [
+    0,
+    -1,
+    0
+   ],
+   "up": [
+    0,
+    0,
+    -1
+   ],
+   "text_height": 5.8252
+  },
+  {
+   "value": 3,
+   "center": [
+    0,
+    0,
+    8.17
+   ],
+   "normal": [
+    0,
+    0,
+    1
+   ],
+   "up": [
+    0,
+    -1,
+    0
+   ],
+   "text_height": 5.8252
+  },
+  {
+   "value": 4,
+   "center": [
+    0,
+    0,
+    -8.17
+   ],
+   "normal": [
+    0,
+    0,
+    -1
+   ],
+   "up": [
+    0,
+    -1,
+    0
+   ],
+   "text_height": 5.8252
+  }
+ ]
+}

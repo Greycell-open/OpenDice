@@ -1,0 +1,9 @@
+{
+  "name": "Open Dice",
+  "type": "static-vite-site",
+  "source": "apps/web",
+  "buildCommand": "npm run build",
+  "outputDirectory": "apps/web/dist",
+  "homepage": "https://greycell.app/run/open-dice/",
+  "description": "Professional open-source dice roller and printable dice model library for tabletop players and makers."
+}
